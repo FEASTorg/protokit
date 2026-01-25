@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "matrix-proto-unitcell.kicad_prl",
+    "filename": "matrix-protoboard-unitcell.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

@@ -235,7 +235,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "matrix-proto-unitcell.kicad_pro",
+    "filename": "matrix-protoboard-unitcell.kicad_pro",
     "version": 3
   },
   "net_settings": {

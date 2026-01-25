@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "altbier")(type "KiCad")(uri "${KIPRJMOD}/altbier.pretty")(options "")(descr ""))
-)

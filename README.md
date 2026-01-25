@@ -4,4 +4,4 @@ ProtoKit is an open-source collection of protoboards, stripboards, expansion boa
 
 ## LICENSE
 
-All designs in this repository are licensed under the GNU General Public License v3.0 (GPL-3.0), unless otherwise specified by a `LICENSE` file in the respective subdirectory.
+All designs in this repository are licensed under the GNU General Public License v3.0 (GPL-3.0), unless otherwise specified by a `LICENSE` file in the respective subdirectory that follows from that of the original repository.

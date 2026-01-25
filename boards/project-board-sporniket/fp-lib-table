@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name protoboard)(type KiCad)(uri ${KIPRJMOD}/protoboard.pretty)(options "")(descr ""))
-  (lib (name cliparts)(type KiCad)(uri ${KIPRJMOD}/cliparts.pretty)(options "")(descr ""))
-)

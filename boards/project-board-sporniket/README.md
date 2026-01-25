@@ -18,7 +18,7 @@ This is a project designed with [Kicad](https://www.kicad.org/), version 7.
 
 ### Gallery
 
-![The board in action](gallery/v1/v1-in-action.jpg)
+![The board in action](images/board-v1-in-action.jpg)
 
 ### Licence
 
