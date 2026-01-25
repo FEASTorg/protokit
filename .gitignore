@@ -1,4 +1,123 @@
+# ###################################################################
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
+# ###################################################################
+
+# Temporary files
+tmp/
+*.000
 *.bak
 *-bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-cache.lib
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
 fp-info-cache
+*-info-cache
 *-backups
+*.lck
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Build dir
+build/
+
+# Export and local libs
+export/
+libs.local/
+
+# ###################################################################
+# OS generated files
+# ###################################################################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.*.sw?
+
+# ###################################################################
+# C/SDCC Compiler generated files
+# ###################################################################
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.lk
+*.lst
+*.map
+*.exp
+*.rst
+*.sym
+*.rel
+*.ihx
+*.mem
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.com
+*.bin
+*.asm
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Python
+*.pyc
+
+# Archives
+*.tar
+*.zip
+*.tgz
+*.gz
+
+# Screen casts
+*.mkv
