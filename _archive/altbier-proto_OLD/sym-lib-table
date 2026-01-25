@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name 0_local)(type Legacy)(uri ${KIPRJMOD}/lib_sh/0_local.lib)(options "")(descr "Local Schematic Library"))
-)
