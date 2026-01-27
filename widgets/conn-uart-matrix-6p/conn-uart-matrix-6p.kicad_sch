@@ -1,0 +1,3839 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f981cbd3-fb9c-49c6-aedf-c8a4eb20de30")
+	(paper "A4")
+	(lib_symbols
+		(symbol "UART matrix v0.2-eagle-import:CON_HEADER_1X06-PTH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.27 8.89 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "UART matrix v0.2:M1X6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CON_HEADER_1X06-PTH_1_0"
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -1.27 -10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy 3.81 -10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -10.16) (xy 3.81 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional inverted
+					(at 0 5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at 0 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UART matrix v0.2-eagle-import:FTDI_DEVICE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "UART matrix v0.2:FTDI_DEVICE_SIDE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector which mates to FTDI basic or FTDI cable."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FTDI_DEVICE_1_0"
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 5.08 0)
+					(length 5.08)
+					(name "DTR"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "TXO"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "RXI"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "P$3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "P$4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "CTS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "P$5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "P$6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SJ"
+				(at 2.54 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 -1.905 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "UART matrix v0.2:SJ_2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper 2 way solder jumper"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SOLDERJUMPER_2WAYT_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -0.635)
+					(end 1.27 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.397)
+					(mid 0 2.667)
+					(end 1.27 1.397)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 1.27 -1.397)
+					(mid 0 -2.667)
+					(end -1.27 -1.397)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.635) (xy -1.27 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 182.88 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10399187-d3b4-441b-855d-f6a54a608437")
+	)
+	(junction
+		(at 172.72 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1142ed52-f0c2-41f6-8516-8b0965587e59")
+	)
+	(junction
+		(at 142.24 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12c46d08-6e07-4213-946d-7c29854aa860")
+	)
+	(junction
+		(at 182.88 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16851107-342c-4912-9864-322ddf9848fe")
+	)
+	(junction
+		(at 172.72 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ea5f8ea-47a7-479b-9ca6-7c8ba76929f7")
+	)
+	(junction
+		(at 172.72 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f4f2beb-ec0e-47c3-ade2-54ef109474a1")
+	)
+	(junction
+		(at 162.56 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30d2d239-d675-4d23-9849-66e488a194a8")
+	)
+	(junction
+		(at 162.56 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33b2cb8d-c814-4cc3-bfe7-bcfaff1285bf")
+	)
+	(junction
+		(at 144.78 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dc58e44-c8b9-40b1-a071-df9b7cefeeb5")
+	)
+	(junction
+		(at 152.4 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "446d713a-6eb3-4b84-bf6b-c6ef9d1636cb")
+	)
+	(junction
+		(at 124.46 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4970e2f4-e509-45f0-97ba-85bc70f75677")
+	)
+	(junction
+		(at 152.4 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49cf6104-9715-4d58-a8b4-94318e10c936")
+	)
+	(junction
+		(at 162.56 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4af75722-92a2-48ba-9042-169d729947a4")
+	)
+	(junction
+		(at 172.72 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a535244-4ba8-4551-b0c1-88d0a027781e")
+	)
+	(junction
+		(at 154.94 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60e2b172-cc30-45ff-a644-ad2c60cc9a7b")
+	)
+	(junction
+		(at 182.88 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66c6b7a9-7071-46e3-b5fe-bc3416c1e71f")
+	)
+	(junction
+		(at 142.24 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "696163ee-d4f2-45ff-bd7d-8768f15e4028")
+	)
+	(junction
+		(at 152.4 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7208e143-1908-43ca-afa9-3b35619bc3c0")
+	)
+	(junction
+		(at 142.24 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74178c26-9aa8-43c0-8cbb-0bf2a03e166f")
+	)
+	(junction
+		(at 175.26 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bafccdb-f922-4b38-b903-c7bbed179075")
+	)
+	(junction
+		(at 124.46 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80f90a60-0b8c-4b3a-b82b-d1da49d49929")
+	)
+	(junction
+		(at 182.88 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "857fa8c3-8ec7-4de6-b44a-38607fc4fb61")
+	)
+	(junction
+		(at 165.1 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a14445c-8a9e-4da7-a261-05f99887dc1f")
+	)
+	(junction
+		(at 165.1 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b441b18-20fd-4e87-b64c-cbb6e2cf4bd0")
+	)
+	(junction
+		(at 182.88 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c048787-4783-4d92-ae7e-7c2ffd7ea173")
+	)
+	(junction
+		(at 144.78 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9127c06d-48c4-4652-af58-84876199c892")
+	)
+	(junction
+		(at 162.56 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "924e3ddb-08ca-4b7a-a12c-ae647eb1102c")
+	)
+	(junction
+		(at 142.24 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95dcfb74-833e-4219-bd27-72beb0205e35")
+	)
+	(junction
+		(at 142.24 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a07edd0c-a9b4-4cd5-9d39-7bf203fa9440")
+	)
+	(junction
+		(at 162.56 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a21329f4-0098-45c1-8038-c5a846915817")
+	)
+	(junction
+		(at 152.4 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa9051ab-a643-42e0-a98a-272e9398b31f")
+	)
+	(junction
+		(at 134.62 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b156a941-02df-400e-8559-42056e09c2d7")
+	)
+	(junction
+		(at 162.56 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4cfd418-0bdd-4316-918a-9b5969fe0428")
+	)
+	(junction
+		(at 154.94 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b674290c-895c-49ba-88c9-a28415b819cb")
+	)
+	(junction
+		(at 152.4 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc8fe384-42df-413c-a0aa-e66a74fad6ac")
+	)
+	(junction
+		(at 134.62 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d378052d-b139-4e45-842d-9f3ad6a619e0")
+	)
+	(junction
+		(at 175.26 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d77128cd-f26d-432d-8634-063c6b62d75a")
+	)
+	(junction
+		(at 172.72 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db51d313-f7cb-4754-acda-b9fa297db10d")
+	)
+	(junction
+		(at 182.88 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd1aa4ff-4981-461b-88cb-43a133243f1c")
+	)
+	(junction
+		(at 152.4 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e51e3eff-445f-4836-9b5f-7eca9aa81b66")
+	)
+	(junction
+		(at 142.24 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef9e9510-86d3-4dc5-8513-c2702f02f24f")
+	)
+	(junction
+		(at 172.72 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f81adba7-2150-442f-957b-8bd4173cdc46")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "02b0c632-3fa6-4b7e-8a04-e48b01e4e5e9")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 144.78 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "05c36835-a7b4-4099-a5c9-b283e3ca63da")
+	)
+	(wire
+		(pts
+			(xy 132.08 96.52) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "09c84fcf-17d8-443e-8fe8-c3cc2be274a0")
+	)
+	(wire
+		(pts
+			(xy 182.88 76.2) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0a12339a-0f88-4760-bd2e-61906dc43a48")
+	)
+	(wire
+		(pts
+			(xy 162.56 109.22) (xy 172.72 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "100c7e0c-c5f5-493d-9e79-f1e59865a1f6")
+	)
+	(wire
+		(pts
+			(xy 132.08 116.84) (xy 132.08 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "134f612d-13b2-4113-a51b-9a6040c5036a")
+	)
+	(wire
+		(pts
+			(xy 162.56 106.68) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1709a6a6-212a-45d3-b161-750bb334fcab")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1980596a-081d-4455-a0f9-314ae8d3f2c6")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 185.42 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1a5d7c5a-0aaf-4853-8c51-97ac6ac5d2c8")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1b567168-ebc2-451a-aa2b-3e041f971715")
+	)
+	(wire
+		(pts
+			(xy 106.68 111.76) (xy 104.14 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1bc98e71-c331-4763-a162-e9f536c106e5")
+	)
+	(wire
+		(pts
+			(xy 152.4 116.84) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ca4fb8f-2234-41d9-862c-040feb36dc50")
+	)
+	(wire
+		(pts
+			(xy 172.72 88.9) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1f0f6cc6-7ed1-4403-af8e-ee942a8018a1")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "20c31e4a-06be-4817-a7b5-94b1809b8ad6")
+	)
+	(wire
+		(pts
+			(xy 182.88 106.68) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "24b2f30d-d7e1-46dc-b838-78868360a1e3")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "26414d20-82e7-4acd-8e3f-f47b06942406")
+	)
+	(wire
+		(pts
+			(xy 175.26 81.28) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2954eba8-40b3-4cec-b42a-07d7e9ea4238")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2dd54c5f-f175-44fa-92a5-f2ceef8a2f00")
+	)
+	(wire
+		(pts
+			(xy 132.08 114.3) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2e41874b-41e5-4507-a536-af069a30d56c")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "32eab3d0-f8b6-4a6a-a0a6-0ea374c8a934")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "34765fd5-6463-4ede-8374-75964db687b2")
+	)
+	(wire
+		(pts
+			(xy 162.56 127) (xy 162.56 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3b1fac43-2814-4a76-b87f-c8b9995760a7")
+	)
+	(wire
+		(pts
+			(xy 104.14 114.3) (xy 106.68 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3f610423-63c8-48cd-8c12-ed7b28b448c0")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3fd63251-a996-4547-a048-5538f5415110")
+	)
+	(wire
+		(pts
+			(xy 182.88 86.36) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4311dc5a-890a-4014-96aa-2ecec6122731")
+	)
+	(wire
+		(pts
+			(xy 175.26 121.92) (xy 175.26 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "47c4b6cd-fc7a-4d12-bc75-bc76a14a55b6")
+	)
+	(wire
+		(pts
+			(xy 162.56 86.36) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "47ffecb1-d620-4096-ba5b-673b2cc22550")
+	)
+	(wire
+		(pts
+			(xy 172.72 127) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "48043344-6ed5-48f7-bc74-7f9a667825c3")
+	)
+	(wire
+		(pts
+			(xy 124.46 121.92) (xy 124.46 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "49f1f6e1-8dab-422d-a05a-e736823b2cb1")
+	)
+	(wire
+		(pts
+			(xy 142.24 96.52) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4acc9e75-d611-4cc2-ab6e-7e4cc0020614")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4bd6fc44-6211-43e8-8e15-ffd82383b278")
+	)
+	(wire
+		(pts
+			(xy 162.56 96.52) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4feae58e-2522-4650-95bd-389ef4e8936f")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "523919fe-7173-445d-989b-87c7dfed6c78")
+	)
+	(wire
+		(pts
+			(xy 142.24 109.22) (xy 152.4 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "52ae4c0a-6f1f-43a4-9fa8-c11e47f106fc")
+	)
+	(wire
+		(pts
+			(xy 142.24 129.54) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "559648f1-6a9e-478f-835b-7b46201f9828")
+	)
+	(wire
+		(pts
+			(xy 182.88 114.3) (xy 185.42 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "56ec159d-e16a-484e-bcec-6e1bf0087c35")
+	)
+	(wire
+		(pts
+			(xy 127 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58af13d1-021e-4322-a2e8-ae52334a97af")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "59a57539-ff9b-4d6b-8fb4-c6aeb8c9df12")
+	)
+	(wire
+		(pts
+			(xy 134.62 81.28) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5e47e698-1d0b-425f-ad08-7ea084ba3646")
+	)
+	(wire
+		(pts
+			(xy 154.94 101.6) (xy 154.94 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5e87e4a3-e863-4369-8549-60fd812aea9c")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 162.56 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5ece5f94-3a77-4cd5-8dc7-dee970862a41")
+	)
+	(wire
+		(pts
+			(xy 152.4 127) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "60012798-2bbd-4a56-a265-00f6fd7ba7a8")
+	)
+	(wire
+		(pts
+			(xy 172.72 116.84) (xy 172.72 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "66c5bc82-4515-4acf-af75-8b385c4aff60")
+	)
+	(wire
+		(pts
+			(xy 104.14 93.98) (xy 106.68 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "66fc1891-2f35-4881-bf16-33b0273bce63")
+	)
+	(wire
+		(pts
+			(xy 182.88 127) (xy 182.88 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "678d8945-17cb-4993-99e3-901ce3b73971")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b287a88-d0f3-41f2-8ce9-06a4053baf42")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6c2368a0-b01e-4289-9e4a-39cafe0f8aef")
+	)
+	(wire
+		(pts
+			(xy 142.24 127) (xy 142.24 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6fefd337-ab87-4ff8-8019-a693fed35ba0")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 175.26 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "70f6bb78-2985-42ed-8841-1cb6542812f4")
+	)
+	(wire
+		(pts
+			(xy 182.88 116.84) (xy 182.88 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "715ad8e0-5bf0-4ac2-8f7a-e37b4a9e0e92")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.82) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "72247235-1388-4964-ab35-cc9158ebbff4")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7398a652-7ca4-408a-bc38-831dfcd465bb")
+	)
+	(wire
+		(pts
+			(xy 182.88 93.98) (xy 185.42 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "755bcdd3-be45-46fc-b109-51561e1a3124")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "76fbe6f1-6fab-40b6-ba32-20767f364f83")
+	)
+	(wire
+		(pts
+			(xy 142.24 76.2) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7c604639-8cf9-4da7-97b0-58218960374a")
+	)
+	(wire
+		(pts
+			(xy 165.1 121.92) (xy 165.1 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7dae0b30-8674-4fda-b022-a8f438c64361")
+	)
+	(wire
+		(pts
+			(xy 172.72 109.22) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7e94ecd2-569b-40f9-97ee-93e562d70767")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 104.14 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "852c6501-451f-4607-a503-c8336b3a75ee")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.66) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c826073-59be-4ce4-b22f-8239922fe317")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 172.72 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8d6e59f9-34ec-4456-8a04-236d412f65d0")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "92b5fcee-c5fa-452b-9f3b-128eb646f7d3")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 104.14 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "95cbdb0d-d0cf-44b0-aca6-4789dfbb8397")
+	)
+	(wire
+		(pts
+			(xy 177.8 101.6) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "975e3324-f992-4433-af33-b868ad9e860c")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "98870fc8-7155-4d9b-8fd4-2a84ff89427c")
+	)
+	(wire
+		(pts
+			(xy 182.88 109.22) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9998c627-712f-4b2c-90fb-ae0cc9a013ea")
+	)
+	(wire
+		(pts
+			(xy 157.48 81.28) (xy 154.94 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9a299e3e-90b2-45d7-b4ed-e34b78aa8ea6")
+	)
+	(wire
+		(pts
+			(xy 144.78 121.92) (xy 144.78 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9a914733-6404-4857-ba2f-7c913acc5907")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9ccdaf5e-b5fa-458b-94a9-540ff172e149")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 134.62 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9cfd1134-ed3e-4b71-a518-6339acf7c7a2")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9eb0387b-f619-44a1-b322-f69c00e652d8")
+	)
+	(wire
+		(pts
+			(xy 157.48 101.6) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a496cbc9-414e-4cef-9379-1ebf64a24c3c")
+	)
+	(wire
+		(pts
+			(xy 152.4 73.66) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a62f3084-18f4-44e6-868c-5ddb4cfc7ba4")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.9) (xy 142.24 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a6740070-1a45-4d73-ae93-b2b199acdf7e")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a86a3e41-6d3e-49d7-be44-a3983049646e")
+	)
+	(wire
+		(pts
+			(xy 154.94 81.28) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ac4871a6-11da-4d22-ab01-9d7c7bf03840")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ac65c870-38e5-4144-934c-343ee60a8043")
+	)
+	(wire
+		(pts
+			(xy 167.64 81.28) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "acbc9cf7-3ca8-4fbf-9f75-4d18408af00d")
+	)
+	(wire
+		(pts
+			(xy 137.16 121.92) (xy 134.62 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "addbac90-2b4a-40d3-a34b-1cae4c57a37b")
+	)
+	(wire
+		(pts
+			(xy 132.08 127) (xy 132.08 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b104806b-b999-49ce-9039-b993ac32bebc")
+	)
+	(wire
+		(pts
+			(xy 172.72 114.3) (xy 182.88 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b31108af-2024-4901-abcf-8463955ccb71")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b3f92d3b-f24f-486c-8dc2-a6063673a427")
+	)
+	(wire
+		(pts
+			(xy 154.94 132.08) (xy 154.94 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b476b90f-c93e-4eeb-9ded-2d12629c4c93")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b54ff8f6-f3c0-4050-9a86-3a3bd06c6a01")
+	)
+	(wire
+		(pts
+			(xy 132.08 129.54) (xy 142.24 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b599e596-1a4b-4375-940d-54030961b5c0")
+	)
+	(wire
+		(pts
+			(xy 152.4 106.68) (xy 152.4 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b8472cfc-98ab-4247-93fb-aabf7925385b")
+	)
+	(wire
+		(pts
+			(xy 182.88 88.9) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b85f83b7-9043-42f9-9673-c35bd4c7ccbd")
+	)
+	(wire
+		(pts
+			(xy 152.4 76.2) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b8f9cabb-84a2-4a81-bac0-e531a379cf5d")
+	)
+	(wire
+		(pts
+			(xy 162.56 129.54) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bf6c87f0-0392-4929-9910-62f1ace1e7f0")
+	)
+	(wire
+		(pts
+			(xy 142.24 86.36) (xy 142.24 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bfaa7ede-edee-4c9b-9978-f28fcda46166")
+	)
+	(wire
+		(pts
+			(xy 175.26 101.6) (xy 175.26 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c129b73a-1d70-48f7-aa03-7551f093f4dc")
+	)
+	(wire
+		(pts
+			(xy 144.78 101.6) (xy 144.78 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c2c77866-c16e-485c-af4f-469b48e41cf1")
+	)
+	(wire
+		(pts
+			(xy 104.14 81.28) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c97fc32b-c98a-4da6-8043-9c28e3a567d5")
+	)
+	(wire
+		(pts
+			(xy 147.32 121.92) (xy 144.78 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "caedd10b-7ff4-4bc1-b272-40217ad987aa")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 144.78 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cbade713-d13d-4321-956c-f61ef0b9556b")
+	)
+	(wire
+		(pts
+			(xy 182.88 129.54) (xy 185.42 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ceee8f7d-3cdc-4ef6-ad94-2ffbcf7976f4")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5e019f3-659d-40e3-8b96-ff8a563c3d3a")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d63ed8ee-449f-48ff-9fba-cc5907c7e512")
+	)
+	(wire
+		(pts
+			(xy 104.14 109.22) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d86fbd11-3c52-427d-9602-39d34fcf7389")
+	)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "da20a6f6-7641-41a5-bdb3-47b052d89b93")
+	)
+	(wire
+		(pts
+			(xy 177.8 121.92) (xy 175.26 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "daae6340-5f33-4531-99fe-1459370f03cf")
+	)
+	(wire
+		(pts
+			(xy 157.48 121.92) (xy 154.94 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dcd1f65e-96f5-4e2c-a349-378b10d198f5")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 182.88 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ddbdc756-08b1-4ebc-ae3c-05535b2f5e74")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ddf6802e-34c0-4026-a9d8-ea1cb80b59ac")
+	)
+	(wire
+		(pts
+			(xy 142.24 106.68) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e12dc9f9-c6cf-48d3-91b6-3791047a2e07")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e50065b3-733d-40c8-886d-dd4ef872385a")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e5f1f152-1bce-48cd-a098-19edd59a9191")
+	)
+	(wire
+		(pts
+			(xy 162.56 116.84) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e6184640-2469-49d3-a068-72432f398ce6")
+	)
+	(wire
+		(pts
+			(xy 142.24 88.9) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eae893c4-283f-4d4e-a81a-0de29bb7f0aa")
+	)
+	(wire
+		(pts
+			(xy 132.08 86.36) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ebdac33b-0359-4509-908d-7119913dc639")
+	)
+	(wire
+		(pts
+			(xy 172.72 129.54) (xy 182.88 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eec5069b-ad09-4bbc-b6eb-0d37239e8db8")
+	)
+	(wire
+		(pts
+			(xy 162.56 114.3) (xy 172.72 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ef7d4913-452f-466b-956f-6fa0d241f612")
+	)
+	(wire
+		(pts
+			(xy 172.72 86.36) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0f8de28-eae5-4b97-b80e-964eb0378180")
+	)
+	(wire
+		(pts
+			(xy 132.08 106.68) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f1dd0f6d-6f81-4fc5-81a3-d8c28e3aa19d")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f27b5daf-1e64-455a-be79-fb6a978bb598")
+	)
+	(wire
+		(pts
+			(xy 134.62 121.92) (xy 134.62 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f281fed2-6b60-452d-9ea2-88b89f490233")
+	)
+	(wire
+		(pts
+			(xy 165.1 101.6) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f3ca701c-122c-40ce-9695-300a9346c3ac")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f660c23f-443b-4eb4-8ff7-e749d5e31ff5")
+	)
+	(wire
+		(pts
+			(xy 182.88 96.52) (xy 182.88 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f7363110-cbc3-4eeb-babd-9525d6660ac3")
+	)
+	(wire
+		(pts
+			(xy 124.46 81.28) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f9f70e17-3cfc-4089-bcd3-96e6583befcb")
+	)
+	(wire
+		(pts
+			(xy 132.08 109.22) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fbc9e5be-a94d-464f-bdcb-b28a2fbb8cc5")
+	)
+	(label "RX"
+		(at 185.42 93.98 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cb35551-4ff9-4c49-bcca-9276dec0a978")
+	)
+	(label "GND"
+		(at 185.42 129.54 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "21e132e0-ae7f-4ebb-bac4-e578e7a1d1e7")
+	)
+	(label "5"
+		(at 104.14 111.76 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "2594c149-dedd-4a2e-98a2-815ba6f03229")
+	)
+	(label "TX"
+		(at 185.42 88.9 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c7e2a03-1ec6-49d2-8230-81b88fe961ab")
+	)
+	(label "TX"
+		(at 104.14 83.82 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "3022d310-5f76-4608-b91a-5c86031f8d7f")
+	)
+	(label "CTS"
+		(at 185.42 114.3 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d43eb58-1a32-457f-913b-210fd5b77117")
+	)
+	(label "3"
+		(at 104.14 106.68 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "425fd77f-8401-41a3-b7c6-ea3195956132")
+	)
+	(label "3"
+		(at 144.78 132.08 270)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d6d9559-bfd7-4642-8998-46f23afb25e6")
+	)
+	(label "VCC"
+		(at 185.42 109.22 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d9f99a4-c290-4fe0-aad4-e16b28a5479f")
+	)
+	(label "6"
+		(at 104.14 114.3 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "841d48d1-027e-40b4-9ca5-f4fa51711a6b")
+	)
+	(label "1"
+		(at 124.46 132.08 270)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a832758-702e-4676-9759-692f43ff3b34")
+	)
+	(label "DTR"
+		(at 185.42 73.66 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "a208e3ac-70e2-4645-a362-202a2508a96b")
+	)
+	(label "4"
+		(at 154.94 132.08 270)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5b6a881-227c-4022-abd6-df04cf64ee86")
+	)
+	(label "5"
+		(at 165.1 132.08 270)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "b31ed2d6-b652-4994-b557-9ea78ec8ac4d")
+	)
+	(label "GND"
+		(at 104.14 93.98 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "b51db24e-eb8f-4fd1-bf21-eee4753fe90b")
+	)
+	(label "4"
+		(at 104.14 109.22 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8f455c2-b609-4b3e-af81-a7b1dd37f573")
+	)
+	(label "RX"
+		(at 104.14 86.36 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "b923489a-2f3b-4532-902c-df8a9e09498b")
+	)
+	(label "VCC"
+		(at 104.775 88.9 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "c6c7244a-9653-405e-8ed3-9ad9a70765c4")
+	)
+	(label "DTR"
+		(at 104.14 81.28 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "d659a90f-d75f-4db6-8fc8-daafed213983")
+	)
+	(label "CTS"
+		(at 104.14 91.44 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "df065876-453d-497d-b669-5b5206107cb7")
+	)
+	(label "6"
+		(at 175.26 132.08 270)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3b1b459-c437-49e8-b857-a1470980bef2")
+	)
+	(label "2"
+		(at 134.62 132.08 270)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5c79904-a311-473b-8846-4bb3bb30a93a")
+	)
+	(label "1"
+		(at 104.14 101.6 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea36a4fc-58ed-49f7-8902-f5157c04eb99")
+	)
+	(label "2"
+		(at 104.14 104.14 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "f780083c-cb90-4bdd-92ae-1bcedc13b37c")
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 162.56 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05402874-5184-4bbd-b396-5ad55eb6a64e")
+		(property "Reference" "SJ16"
+			(at 165.1 121.539 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 165.1 123.825 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ec0d6e06-797f-4478-baa5-3d1c0fa636e0")
+		)
+		(pin "1"
+			(uuid "f80cbf5d-d012-47b0-ae70-b341d31eec81")
+		)
+		(pin "2"
+			(uuid "cec0bb35-2ced-4625-a80a-5a068b87b65b")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 132.08 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0958457d-e357-4bbd-9d94-ccbf4366257d")
+		(property "Reference" "SJ7"
+			(at 134.62 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 134.62 103.505 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8de51ef5-5a0a-4dfd-9f0e-0a0e61ec4147")
+		)
+		(pin "2"
+			(uuid "e2631e32-58f1-4901-a8df-eef76eac9ade")
+		)
+		(pin "3"
+			(uuid "f3c82763-e7a8-401d-8fbc-feac1135bcef")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 142.24 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "271f875b-817b-4c62-a41d-6faf2a7c44ba")
+		(property "Reference" "SJ8"
+			(at 144.78 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 144.78 103.505 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "936c7d03-2510-41d4-bc36-018538fea3a2")
+		)
+		(pin "3"
+			(uuid "d72bc1b4-8686-4fa2-95ff-9821a926248e")
+		)
+		(pin "2"
+			(uuid "27f1c1ea-14d7-4b1d-9ac1-48307b282907")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 182.88 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37c296da-c159-437a-ab6a-6b28e21d033d")
+		(property "Reference" "SJ12"
+			(at 185.42 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 185.42 103.505 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "addd9ac9-c529-4136-a171-1a77e10f9092")
+		)
+		(pin "1"
+			(uuid "5756ab18-8362-4f95-a7ad-58e1e937415d")
+		)
+		(pin "2"
+			(uuid "f4dae6a7-d0c7-41cc-9efb-e734f88f4f78")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 152.4 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4189f322-2a2d-4db2-8294-b252ed03ddd6")
+		(property "Reference" "SJ3"
+			(at 154.94 80.899 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 154.94 83.185 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8feb4c7-ea6d-42e8-ba6e-1e555b975a59")
+		)
+		(pin "3"
+			(uuid "c983234a-0b5a-4884-b20d-711c6f238946")
+		)
+		(pin "1"
+			(uuid "47ce5053-f7cc-40c5-a996-173672dc94f4")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 182.88 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bbcd7cc-ab8f-480a-a5b1-3e8532db9be3")
+		(property "Reference" "SJ6"
+			(at 185.42 80.899 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 185.42 83.185 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0f98f64-4c98-4d39-ad2a-d005ba3f7a2b")
+		)
+		(pin "1"
+			(uuid "67fcbe68-dc3e-49f4-8c56-b773f2c75c38")
+		)
+		(pin "3"
+			(uuid "72b1bcc8-5ecd-435b-9751-5a8765ecbad8")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:CON_HEADER_1X06-PTH")
+		(at 106.68 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d265758-32e3-4047-8641-213b1b9fe02b")
+		(property "Reference" "J1"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CON_HEADER_1X06-PTH"
+			(at 106.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:M1X6"
+			(at 106.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6425cd82-8123-492d-b910-ead005b85757")
+		)
+		(pin "3"
+			(uuid "d514955d-fcaa-4914-96f0-56c7ffc736af")
+		)
+		(pin "1"
+			(uuid "8e3666e3-4555-482a-9221-ddb489625091")
+		)
+		(pin "6"
+			(uuid "21f80795-6f49-4fda-a459-76549292599b")
+		)
+		(pin "2"
+			(uuid "52e83d34-21d3-4d92-8fde-963998160dc7")
+		)
+		(pin "4"
+			(uuid "294c5334-de97-4ba6-9fe4-75c8d866c6a1")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 132.08 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ddf84f6-7967-466a-94e5-e322761e68f0")
+		(property "Reference" "SJ13"
+			(at 134.62 121.539 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 134.62 123.825 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 132.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff76f6c6-47c8-4722-98cc-3d85da4299c2")
+		)
+		(pin "3"
+			(uuid "fff343a7-daba-40a5-abeb-5879b2f2de06")
+		)
+		(pin "1"
+			(uuid "c3f32cba-7914-48a7-a845-27338874618e")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 172.72 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fbb0b20-15cf-4feb-8cf8-93728d45aa54")
+		(property "Reference" "SJ5"
+			(at 175.26 80.899 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 175.26 83.185 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff28625c-65e9-45e7-b13c-0046a0b89ae0")
+		)
+		(pin "3"
+			(uuid "71853083-626c-4db5-ae5f-2e64a2152bd8")
+		)
+		(pin "2"
+			(uuid "af2c8878-fc3e-48f1-9d90-c1e23b6d5871")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 152.4 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73f1ec17-5624-43a2-8f27-edcb5360cbb0")
+		(property "Reference" "SJ9"
+			(at 154.94 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 154.94 103.505 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2005f2c1-1ab2-48e8-9bfe-01a6c08a25ed")
+		)
+		(pin "1"
+			(uuid "b82f9330-6795-4b6f-b1a6-108d07c90039")
+		)
+		(pin "3"
+			(uuid "b899f48d-041e-4af5-9e72-0c1969c2e4c5")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 142.24 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78c13f4a-dd4d-45dd-aef3-4a031f9e594d")
+		(property "Reference" "SJ2"
+			(at 144.78 80.899 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 144.78 83.185 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a7ee260-d53e-4bd4-bf17-5b237087d3b2")
+		)
+		(pin "2"
+			(uuid "2d3bcb3d-9463-4e06-8e0e-985af35f1411")
+		)
+		(pin "3"
+			(uuid "f641a205-9f38-4171-bdd6-6fece5dcf0cb")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 182.88 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97dfd242-8e09-4d39-8dbf-8087fff29417")
+		(property "Reference" "SJ18"
+			(at 185.42 121.539 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 185.42 123.825 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b24823c1-aac1-4e12-96b0-2b2f579e23ca")
+		)
+		(pin "3"
+			(uuid "5b3b8b1c-dd28-4b5e-a9da-1bafd9875a9f")
+		)
+		(pin "2"
+			(uuid "cfdd7aac-5c5b-4dd9-9794-dd4cf877380d")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 162.56 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaff0595-f40a-41b3-b8d0-6513f8db5103")
+		(property "Reference" "SJ10"
+			(at 165.1 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 165.1 103.505 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0870b130-1427-46a4-a7c7-29eb7c986ba6")
+		)
+		(pin "2"
+			(uuid "a6b69fcb-a29f-4d90-9a15-b141b8ecdf91")
+		)
+		(pin "1"
+			(uuid "be93c9be-3355-4dfb-bb47-4417b72b5038")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 162.56 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b21ad83f-846e-4c8b-aa57-4c84b560805b")
+		(property "Reference" "SJ4"
+			(at 165.1 80.899 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 165.1 83.185 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62de8659-d9ed-4b0c-a13d-6fba67f4a5d9")
+		)
+		(pin "3"
+			(uuid "6c4eeaf1-8445-4eff-a431-a3865ebd4298")
+		)
+		(pin "1"
+			(uuid "67bf01ca-4665-4bca-bc13-0f76701c6bea")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 172.72 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8c2fad3-285c-4119-93df-20f5072b2a2f")
+		(property "Reference" "SJ11"
+			(at 175.26 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 175.26 103.505 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31ff12cc-5145-4d58-a8ee-5ada1b6e72ff")
+		)
+		(pin "3"
+			(uuid "6ef1aa5d-e77b-4c12-b994-ea3b9ee64d18")
+		)
+		(pin "2"
+			(uuid "915e5f97-5f3c-40ad-83d9-2664e5f87ce6")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 172.72 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0a1f23f-f8c7-440b-9403-8a1a2550f917")
+		(property "Reference" "SJ17"
+			(at 175.26 121.539 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 175.26 123.825 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8d1ba3b-b08f-4b3e-ae3e-e2715f28ddbc")
+		)
+		(pin "3"
+			(uuid "8fcff04a-191f-45bb-8ed9-e944f809b556")
+		)
+		(pin "1"
+			(uuid "379e8d60-c571-450c-89fe-9da12f69c4d4")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 132.08 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4aaf17b-7151-4025-8b58-fe433e78f1aa")
+		(property "Reference" "SJ1"
+			(at 134.62 80.899 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 134.62 83.185 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1c2abae-7bad-448a-94cb-c20c88063af4")
+		)
+		(pin "1"
+			(uuid "8415842b-ef2a-45a3-b334-cfbe4f64972d")
+		)
+		(pin "3"
+			(uuid "3c5205b1-8dca-460c-b32b-585ed2a74187")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 142.24 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4d1556b-f987-4f03-9ae9-7ef38abe3a74")
+		(property "Reference" "SJ14"
+			(at 144.78 121.539 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 144.78 123.825 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "da56bede-f771-4c91-b2d6-f1dd18a3b1b0")
+		)
+		(pin "2"
+			(uuid "6a43e253-0520-4ccb-9754-85f4159d7d12")
+		)
+		(pin "1"
+			(uuid "add7d03f-dfd8-4336-ba1b-90e43ee120a2")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:FTDI_DEVICE")
+		(at 111.76 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6ad85a0-f1a7-452d-945f-b9aa5969b181")
+		(property "Reference" "FTDI0"
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FTDI_DEVICE"
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:FTDI_DEVICE_SIDE"
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "324e2369-cb13-4ff3-bc8f-fd6e51c45085")
+		)
+		(pin "P$3"
+			(uuid "008ea86e-fdcf-4de3-8eba-e3bf034cad8b")
+		)
+		(pin "P$6"
+			(uuid "18024f3e-5def-4a8b-aeff-1cf762fdd726")
+		)
+		(pin "P$2"
+			(uuid "d437ddb1-34ef-41c0-bf58-67cad86eff7a")
+		)
+		(pin "P$4"
+			(uuid "899557fe-4fb9-434d-af77-e018f0b50342")
+		)
+		(pin "P$5"
+			(uuid "82ca4ed4-6103-4f24-acb1-362ddc29875c")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "FTDI0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART matrix v0.2-eagle-import:SOLDERJUMPER_2WAYT")
+		(at 152.4 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb1270b9-8f46-4a99-86f4-1e08d262b576")
+		(property "Reference" "SJ15"
+			(at 154.94 121.539 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER_2WAYT"
+			(at 154.94 123.825 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "UART matrix v0.2:SJ_2"
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "80c138b2-0d6f-4c6c-a192-b4c1cfae1e81")
+		)
+		(pin "2"
+			(uuid "df80207c-511b-44d9-afc1-da3d3107a778")
+		)
+		(pin "1"
+			(uuid "c68094c8-aac2-443b-91bf-2a71728ba02e")
+		)
+		(instances
+			(project ""
+				(path "/f981cbd3-fb9c-49c6-aedf-c8a4eb20de30"
+					(reference "SJ15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

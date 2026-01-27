@@ -49,8 +49,7 @@ libs.local/
 ._*
 .Spotlight-V100
 .Trashes
-ehthumbs.db
-Thumbs.db
+*.db
 .*.sw?
 
 # ###################################################################

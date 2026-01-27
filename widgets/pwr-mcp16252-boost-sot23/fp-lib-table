@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MCP16252 v1")(type "KiCad")(uri "$(KIPRJMOD)/pwr-mcp16252-boost-sot23.pretty")(options "")(descr ""))
+)

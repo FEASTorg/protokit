@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "USB-C_breakout")(type "KiCad")(uri "$(KIPRJMOD)/conn-usb-c-cc.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SOIC_TSSOP-16 adapter_and_proto")(type "KiCad")(uri "$(KIPRJMOD)/ic-soic16-tssop16-combo.pretty")(options "")(descr ""))
+)

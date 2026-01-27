@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB-C_breakout-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/USB-C_breakout-eagle-import.kicad_sym")(options "")(descr ""))
+)

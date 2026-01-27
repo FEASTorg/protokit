@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "single_button-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/single_button-eagle-import.kicad_sym")(options "")(descr ""))
+)

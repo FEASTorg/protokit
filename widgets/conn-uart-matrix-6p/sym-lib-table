@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "UART matrix v0.2-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/UART matrix v0.2-eagle-import.kicad_sym")(options "")(descr ""))
+)

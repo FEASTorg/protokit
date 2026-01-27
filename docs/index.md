@@ -9,18 +9,26 @@ ProtoKit is an open-source collection of protoboards, stripboards, expansion boa
 
 ## Footprints
 
-This repository includes standalone KiCad footprint libraries used throughout the ProtoKit boards. You can either:
-
-- Reference them directly by adding your local copy of this repository to your global KiCad footprint library table
-- Or copy the `.pretty` folders into your local KiCad library directory (note: copied versions will not receive updates unless you manually sync or re-clone the repository)
-
-### Libraries
-
-- `Proto.pretty` – Core library for general protoboard and stripboard footprints
-- `Proto-Matrix.pretty` – Specialized footprints for designing matrix-style pad-per-hole protoboards
-
-These libraries are intended to be reusable for your own prototyping PCB designs.
+All symbols and footprints are available in the [KiCad-Master-Lib](https://github.com/FEASTorg/KiCad-Master-Lib) repository. However, we always aim to use the native KiCad libraries whenever possible.
 
 ## References & Acknowledgements
 
+Boards:
+
 - [github.com/mikespook/KiCAD-prototype-boards](https://github.com/mikespook/KiCAD-prototype-boards)
+
+The widgets also build on the work of several excellent open hardware projects and contributors:
+
+- **Breadboard Widgets** by Stefan Lochbrunner  
+  Main design reference and inspiration
+  - GitHub: [stefan-lochbrunner/breadboard-widgets](https://github.com/stefan-lochbrunner/breadboard-widgets)
+  - Hackaday: [Breadboard Widgets Project](https://hackaday.io/project/6332-breadboard-widgets)
+
+- **SUF Electronics Breadboard Modules** by sufzoli  
+  Back-referenced from breadboard-widgets
+  - GitHub: [sufzoli/suf-electronics-breadboard](https://github.com/sufzoli/suf-electronics-breadboard)
+
+- **SUF Electronics Voltage Inverter**  
+  pwr-voltage-inverter-icl7660 based on SUF's USB inverter module
+  - GitHub: [sufzoli/suf-electronics-USB-INV-PM](https://github.com/sufzoli/suf-electronics-USB-INV-PM)
+  - Hackaday log: [SUF's Negative Voltage Converter](https://hackaday.io/project/6332-breadboard-widgets/log/22127-sufs-negative-voltage-converter)

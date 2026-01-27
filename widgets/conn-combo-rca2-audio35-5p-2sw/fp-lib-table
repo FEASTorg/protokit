@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "3.5mm_RCA_breakout")(type "KiCad")(uri "$(KIPRJMOD)/conn-combo-rca2-audio35-5p-2sw.pretty")(options "")(descr ""))
+)

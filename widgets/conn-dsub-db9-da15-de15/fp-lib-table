@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DA-15_DB-9_DE-15")(type "KiCad")(uri "$(KIPRJMOD)/conn-dsub-db9-da15-de15.pretty")(options "")(descr ""))
+)
