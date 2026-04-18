@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "single_button-dual_LED")(type "KiCad")(uri "$(KIPRJMOD)/input-button-led-smd.pretty")(options "")(descr ""))
+)

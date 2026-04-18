@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TSOP-II-44_v3_CY7C1021BV33")(type "KiCad")(uri "$(KIPRJMOD)/ic-tsopii44-cy7c1021bv33.pretty")(options "")(descr ""))
+)

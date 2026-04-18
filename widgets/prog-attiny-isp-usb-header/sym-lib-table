@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ATtiny prog board with USB-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/ATtiny prog board with USB-eagle-import.kicad_sym")(options "")(descr ""))
+)

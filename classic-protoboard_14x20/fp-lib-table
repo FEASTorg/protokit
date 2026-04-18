@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Prototype_Board")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/KiCAD-prototype-boards/classic-protoboard_14x20.pretty")(options "")(descr ""))
-)

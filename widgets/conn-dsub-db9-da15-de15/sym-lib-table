@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DA-15_DB-9_DE-15-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/DA-15_DB-9_DE-15-eagle-import.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ATtiny prog board with USB")(type "KiCad")(uri "$(KIPRJMOD)/prog-attiny-isp-usb-header.pretty")(options "")(descr ""))
+)

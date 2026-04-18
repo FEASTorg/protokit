@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "single_LED")(type "KiCad")(uri "$(KIPRJMOD)/led-0805-1x.pretty")(options "")(descr ""))
+)

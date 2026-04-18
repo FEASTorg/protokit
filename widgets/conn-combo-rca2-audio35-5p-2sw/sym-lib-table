@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "3.5mm_RCA_breakout-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/3.5mm_RCA_breakout-eagle-import.kicad_sym")(options "")(descr ""))
+)

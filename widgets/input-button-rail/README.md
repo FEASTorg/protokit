@@ -1,0 +1,9 @@
+# Input: Single Button with Pull Resistor
+
+## info
+
+Small board that incorporates a button and pull-resistor. Can be plugged into power rails. Depending on which side of a breadboard it is plugged in, acts as pull-up or pull-down. Optional footprints for low-pass filter for debouncing.
+
+## parts dump
+
+-
