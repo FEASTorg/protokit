@@ -13034,7 +13034,7 @@
 			)
 		)
 	)
-	(gr_text "The protoboard by Sporniket & Cam Brooks v1.1.0\nhttps://github.com/sporniket/protoboard\nhttps://github.com/FEASTorg/ProtoKit"
+	(gr_text "The protoboard by Sporniket & Cam Brooks v1.1.0\nhttps://github.com/sporniket/protoboard\nhttps://github.com/feastorg/ProtoKit"
 		(at 100.11 92.385 0)
 		(layer "F.SilkS")
 		(uuid "62ab1c46-12bc-47ac-8a6e-ae992fd733bb")

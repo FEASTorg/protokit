@@ -9,7 +9,7 @@ ProtoKit is an open-source collection of protoboards, stripboards, expansion boa
 
 ## Footprints
 
-All symbols and footprints are available in the [KiCad-Master-Lib](https://github.com/FEASTorg/KiCad-Master-Lib) repository. However, we always aim to use the native KiCad libraries whenever possible.
+All symbols and footprints are available in the [KiCad-Master-Lib](https://github.com/feastorg/KiCad-Master-Lib) repository. However, we always aim to use the native KiCad libraries whenever possible.
 
 ## References & Acknowledgements
 
